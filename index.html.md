@@ -1,0 +1,137 @@
+[Satendra Verma](#top)
+
+[About](#about)[Experience](#experience)[Projects](#projects)[Skills](#skills)[Contact](#contact)
+
+Open to software, AI/ML & data roles
+
+# Satendra*Verma*
+
+I build **working ML models**. B.Tech Information Technology student with hands-on experience across software, AI/ML, and data analysis.
+
+[Email me](mailto:satendraverma7@gmail.com)[View GitHub](https://github.com/satanicverma)
+
+SV
+
+Degree
+
+B.Tech, Information Technology
+
+Focus
+
+Software, AI/ML, data
+
+Toolkit
+
+Python, SQL, Pandas, NumPy
+
+**0**internships and simulations
+
+**0**movie records modelled
+
+**0**projects built
+
+PythonSQLPandasNumPyScikit-learnMachine learningEDAREST APIsGitCybersecurityPythonSQLPandasNumPyScikit-learnMachine learningEDAREST APIsGitCybersecurity
+
+## About me
+
+I’m Satendra, an Information Technology student who loves building things that learn and scale. This past year I’ve **built and deployed ML models**, shipped APIs and Python modules, explored data with Pandas, and worked through a real cybersecurity case with TCS. Basketball at the national level taught me to stay calm under pressure and play for the team, and I bring the same habits to my work. I’m looking for my first role in **software, AI/ML, or data**.
+
+## Experience
+
+Real-world practice across AI/ML, software, and security.
+
+### AI & Data Skills Intern
+
+YBI Foundation · July 2024 · Remote
+
+- Built and deployed ML models end to end, from analysis to production integration.
+- Created RESTful APIs so models could run in production, improving scalability and access.
+- Ran exploratory data analysis with Pandas and NumPy to surface actionable insights.
+
+### Python Programming Intern
+
+Motion Cut · Oct – Dec 2024 · Remote
+
+- Designed Python solutions for project-driven tasks.
+- Worked with teammates to deliver working modules on deadline.
+
+### Cybersecurity Analyst Simulation
+
+TCS via Forage · April 2025
+
+- Completed an IAM simulation with TCS’s Cybersecurity Consulting team, applying risk-mitigation practices.
+- Wrote technical documentation and presented security concepts to stakeholders.
+
+## Selected projects
+
+Two builds that show how I work with data and code.
+
+### Movie Recommendation System
+
+- Python
+- Pandas
+- Scikit-learn
+- NLP
+
+A content-based recommender on 5,000+ TMDB records. TF-IDF vectorization and cosine similarity return the closest matches, using features from genre, cast, director, and plot keywords.
+
+[See the code](https://github.com/satanicverma)
+
+### Analogue Clock
+
+- HTML
+- CSS
+- JavaScript
+
+A real-time, responsive analogue clock built with JavaScript’s Date API and setInterval, tuned for desktop and mobile.
+
+[See the code](https://github.com/satanicverma)
+
+## Skills and beyond
+
+The tools I use, and the life outside the editor.
+
+### Languages
+
+- Python
+- Java
+- C++
+
+### AI/ML and data
+
+- Pandas
+- NumPy
+- Scikit-learn
+- SQL
+- Git
+- MS Office
+
+### Web
+
+- HTML
+- CSS
+- JavaScript
+
+### Concepts
+
+- Machine learning
+- EDA
+- IAM
+- Cybersecurity
+
+### Certifications
+
+Tata Cybersecurity Analyst Job Simulation, Forage (April 2025).\
+YBI Foundation AI & Data Skills Internship (July 2024).
+
+### Off the screen
+
+Represented Uttar Pradesh as a national-level basketball player. Led student initiatives and community programs as Student Secretary of Peace House.
+
+## Let’s work together
+
+I’m looking for a software, AI/ML, or data role where I can learn fast and contribute early. Email is the quickest way to reach me.
+
+[satendraverma7@gmail.com](mailto:satendraverma7@gmail.com)[LinkedIn](https://www.linkedin.com/in/satendra-verma-128522228)[GitHub](https://github.com/satanicverma)
+
+© 2026 Satendra Verma
