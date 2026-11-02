@@ -1,137 +1,233 @@
-[Satendra Verma](#top)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Satendra Verma | Software, AI/ML &amp; Data</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#F4F5F8;--card:#fff;--ink:#101A33;--muted:#5A6580;--line:#DCE0EA;--gold:#9A7418;--glow:#5B6CFF;--glass:rgba(255,255,255,.7);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0A0F1F;--card:rgba(255,255,255,.04);--ink:#ECE8DF;--muted:#98A2B8;--line:rgba(255,255,255,.1);--gold:#D4B36A;--glass:rgba(255,255,255,.05)}}
+:root[data-theme="dark"]{--bg:#0A0F1F;--card:rgba(255,255,255,.04);--ink:#ECE8DF;--muted:#98A2B8;--line:rgba(255,255,255,.1);--gold:#D4B36A;--glass:rgba(255,255,255,.05)}
+html{scroll-padding-top:80px;scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 Manrope,system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px;position:relative}
+#bar{position:fixed;top:0;left:0;height:3px;width:100%;background:linear-gradient(90deg,var(--glow),var(--gold));transform:scaleX(0);transform-origin:0 50%;z-index:30}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:19}
+header.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 70%,transparent);border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;justify-content:space-between;align-items:center;height:64px;gap:12px}
+.logo{font:600 22px Fraunces,Georgia,serif;text-decoration:none}
+.nav nav{display:flex;gap:26px;font-size:15px;font-weight:500}
+.nav nav a{text-decoration:none;color:var(--muted);position:relative;transition:color .2s}
+.nav nav a::after{content:"";position:absolute;left:0;bottom:-4px;height:2px;width:100%;background:var(--gold);transform:scaleX(0);transform-origin:0 50%;transition:transform .3s}
+.nav nav a:hover{color:var(--ink)}.nav nav a:hover::after{transform:scaleX(1)}
+.hero{position:relative;padding:90px 0 80px}
+.blob{position:absolute;border-radius:50%;filter:blur(90px);opacity:.35;pointer-events:none;animation:float 14s ease-in-out infinite alternate}
+.b1{width:420px;height:420px;background:var(--glow);top:-80px;right:-60px}
+.b2{width:320px;height:320px;background:var(--gold);bottom:-60px;left:-80px;animation-delay:-6s;opacity:.25}
+@keyframes float{to{transform:translate(40px,30px) scale(1.12)}}
+.hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center}
+.hi{display:inline-flex;align-items:center;gap:10px;padding:6px 14px;border:1px solid var(--line);border-radius:99px;background:var(--glass);font-size:14px;color:var(--muted);margin-bottom:26px}
+.dot{width:9px;height:9px;border-radius:50%;background:#2FCB7C;box-shadow:0 0 0 0 rgba(47,203,124,.6);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(47,203,124,0)}100%{box-shadow:0 0 0 0 rgba(47,203,124,0)}}
+h1{font:400 clamp(46px,8vw,92px)/.98 Fraunces,Georgia,serif;letter-spacing:-.035em;margin:0 0 24px}
+h1 em{display:block;color:var(--gold)}
+.mask{display:block;overflow:hidden;padding-bottom:.08em}
+.mask>span{display:block;transform:translateY(112%);animation:up 1.1s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:var(--d,0s)}
+@keyframes up{to{transform:none}}
+.fade{opacity:0;transform:translateY(16px);animation:fi .9s ease forwards;animation-delay:var(--d,0s)}
+@keyframes fi{to{opacity:1;transform:none}}
+.role{font-size:21px;color:var(--muted);margin:0 0 30px;max-width:32em}
+.role b{color:var(--ink);font-weight:600;display:inline-block;transition:opacity .35s,transform .35s}
+.role b.out{opacity:0;transform:translateY(8px)}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 26px;border-radius:99px;font-weight:600;text-decoration:none;border:1.5px solid var(--ink);transition:transform .25s,background .25s,color .25s,border-color .25s}
+.btn.main{background:var(--ink);color:var(--bg)}
+.btn:hover{transform:translateY(-3px);background:var(--gold);border-color:var(--gold);color:#101A33}
+.id{background:var(--glass);border:1px solid var(--line);border-radius:28px;padding:34px 28px;text-align:center;backdrop-filter:blur(12px);animation:bob 6s ease-in-out infinite alternate}
+@keyframes bob{to{transform:translateY(-12px)}}
+.ring{width:150px;height:150px;margin:0 auto 22px;border-radius:50%;padding:3px;background:conic-gradient(var(--gold),var(--glow),var(--gold));animation:spin 8s linear infinite}
+.ring div{width:100%;height:100%;border-radius:50%;background:var(--bg);display:grid;place-items:center;font:600 54px Fraunces,serif;animation:spin 8s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.id dl{margin:0;text-align:left;font-size:15px}
+.id dt{color:var(--muted);font-size:13px;margin-top:12px}.id dd{margin:0;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:20px;background:var(--card);margin-top:-20px;position:relative}
+.stats div{padding:28px;text-align:center;border-right:1px solid var(--line)}.stats div:last-child{border:0}
+.stats strong{display:block;font:400 clamp(34px,5vw,54px)/1 Fraunces,serif;color:var(--gold)}
+.stats span{color:var(--muted);font-size:15px}
+.marq{overflow:hidden;margin:70px 0 0;border-block:1px solid var(--line);padding:18px 0;mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.marq div{display:flex;gap:44px;width:max-content;animation:slide 28s linear infinite;font:italic 400 26px Fraunces,serif;color:var(--muted)}
+.marq:hover div{animation-play-state:paused}
+@keyframes slide{to{transform:translateX(-50%)}}
+section{padding:90px 0 0}
+h2{font:400 clamp(34px,5vw,54px)/1.05 Fraunces,Georgia,serif;letter-spacing:-.025em;margin:0 0 14px}
+.sub{color:var(--muted);margin:0 0 44px;max-width:36em}
+.tl{position:relative;padding-left:34px}
+.tl::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--gold),var(--glow),transparent)}
+.job{position:relative;padding-bottom:40px}
+.job::before{content:"";position:absolute;left:-34px;top:9px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:3px solid var(--gold)}
+.job h3{font:600 24px Fraunces,serif;margin:0}
+.job .meta{color:var(--gold);font-weight:600;margin:2px 0 10px;font-size:15px}
+.job ul{margin:0;padding-left:20px;max-width:64ch}.job li{margin-bottom:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.card{--x:50%;--y:50%;position:relative;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:32px;overflow:hidden;transition:transform .35s,border-color .35s}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(360px circle at var(--x) var(--y),color-mix(in srgb,var(--gold) 22%,transparent),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover{transform:translateY(-6px);border-color:var(--gold)}.card:hover::before{opacity:1}
+.card>*{position:relative}
+.card h3{font:600 26px Fraunces,serif;margin:0 0 12px}
+.card p{color:var(--muted);margin:0 0 18px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0 0 16px}
+.tags li{border:1px solid var(--line);border-radius:99px;padding:3px 12px;font-size:13.5px;font-weight:600;color:var(--gold)}
+.link{font-weight:600;text-decoration:none;border-bottom:2px solid var(--gold);padding-bottom:2px}
+.sk{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.sk h3{font:600 20px Fraunces,serif;margin:0 0 12px}
+.sk .tags li{color:var(--ink);transition:background .2s,color .2s,transform .2s}
+.sk .tags li:hover{background:var(--gold);color:#101A33;transform:translateY(-2px)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.cta{margin:90px 0 0;padding:70px 24px;text-align:center;border:1px solid var(--line);border-radius:32px;background:var(--card);position:relative;overflow:hidden}
+.cta h2{font-size:clamp(38px,6vw,68px)}
+.cta p{color:var(--muted);margin:0 auto 30px;max-width:30em}
+.cta .btns{justify-content:center}
+footer{padding:40px 0 56px;text-align:center;color:var(--muted);font-size:14px}
+.rv{transition:opacity .9s ease,transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.js .rv{opacity:0;transform:translateY(34px)}.js .rv.in{opacity:1;transform:none}
+h1 em{background:linear-gradient(100deg,var(--gold) 30%,var(--ink) 50%,var(--gold) 70%);background-size:220% 100%;background-position:120% 0;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 5s linear infinite}
+@keyframes shine{to{background-position:-120% 0}}
+#cg{position:fixed;left:0;top:0;width:420px;height:420px;margin:-210px 0 0 -210px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--glow) 18%,transparent),transparent 65%);pointer-events:none;z-index:0;opacity:0;transition:opacity .4s}
+.about{display:grid;grid-template-columns:1fr 200px;gap:40px;align-items:center}
+.about p{font-size:19px;color:var(--muted);max-width:40em;margin:0}
+.about p b{color:var(--ink);font-weight:600}
+.ball{width:100%;max-width:200px;justify-self:center}
+.bnc{animation:bnc 1.4s infinite}.rot{transform-box:fill-box;transform-origin:center;animation:spin 2.8s linear infinite}
+.shd{fill:var(--ink);transform-box:fill-box;transform-origin:center;animation:shd 1.4s infinite}
+@keyframes bnc{0%{transform:translateY(0);animation-timing-function:cubic-bezier(.55,0,1,.45)}50%{transform:translateY(92px);animation-timing-function:cubic-bezier(0,.55,.45,1)}100%{transform:translateY(0)}}
+@keyframes shd{0%,100%{transform:scale(.55);opacity:.08}50%{transform:scale(1);opacity:.25}}
+.job{display:grid;grid-template-columns:1fr 230px;column-gap:36px;align-items:start}
+.job>*{grid-column:1}.job .art{grid-column:2;grid-row:1/span 3}
+.art{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+.art svg,.shot svg{display:block;width:100%;height:auto;transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.art:hover svg,.card:hover .shot svg{transform:scale(1.06)}
+.shot{border-radius:16px;overflow:hidden;border:1px solid var(--line);margin-bottom:22px}
+.bgf{fill:color-mix(in srgb,var(--glow) 10%,transparent)}
+.f-g{fill:var(--gold)}.f-b{fill:var(--glow)}.f-m{fill:var(--muted);opacity:.55}.f-i{fill:var(--ink)}
+.sg{fill:none;stroke:var(--gold)}.sb{fill:none;stroke:var(--glow)}
+.svt{font:700 12px Manrope,sans-serif;fill:var(--ink)}
+.pst{fill:color-mix(in srgb,var(--gold) 10%,transparent);stroke:var(--line);stroke-width:1.5}
+.flow{stroke-dasharray:4 8;animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-24}}
+.pl{transform-box:fill-box;transform-origin:center;animation:pls 2s ease-in-out infinite;animation-delay:var(--d,0s)}
+@keyframes pls{50%{transform:scale(1.5);opacity:.55}}
+.ty{transform-box:fill-box;transform-origin:0 50%;animation:typ 2.6s steps(14) infinite alternate;animation-delay:var(--d,0s)}
+@keyframes typ{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.blk{animation:blk 1s steps(1) infinite}@keyframes blk{50%{opacity:0}}
+.draw{stroke-dasharray:90;animation:drw 3s ease-in-out infinite}
+@keyframes drw{0%{stroke-dashoffset:90}50%,100%{stroke-dashoffset:0}}
+.scan{opacity:.55;animation:scn 2.4s ease-in-out infinite alternate}
+@keyframes scn{to{transform:translateY(88px)}}
+.bb{animation:bbf 3s ease-in-out infinite;animation-delay:var(--d,0s)}
+@keyframes bbf{50%{transform:translateY(-6px)}}
+.shoot{animation:shoot 3.2s ease-in-out infinite}
+@keyframes shoot{0%{transform:translate(0,0);opacity:1}45%{transform:translate(110px,-118px)}70%{transform:translate(244px,-70px)}82%{transform:translate(244px,-18px)}92%{transform:translate(290px,8px);opacity:1}100%{transform:translate(290px,8px);opacity:0}}
+.net{transform-box:fill-box;transform-origin:50% 0;animation:sway 3.2s ease-in-out infinite}
+@keyframes sway{0%,64%,100%{transform:scale(1)}74%{transform:scale(1.14,1.2)}86%{transform:scale(.95,1.04)}}
+.sp{transform-box:fill-box;transform-origin:center;animation:spn 4s ease-in-out infinite}
+@keyframes spn{50%{transform:scale(1.14) rotate(14deg)}}
+@media (max-width:820px){.about{grid-template-columns:1fr}.job{grid-template-columns:1fr}.job .art{grid-column:1;grid-row:auto;order:4;margin-top:14px;max-width:280px}}
+@media (max-width:820px){.hero .wrap,.two{grid-template-columns:1fr}.hero{padding-top:50px}.nav nav{gap:16px;font-size:14px}.logo{display:none}.stats{grid-template-columns:1fr}.stats div{border-right:0;border-bottom:1px solid var(--line)}.id{max-width:340px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.mask>span,.fade{transform:none;opacity:1}.js .rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div id="bar"></div><div id="cg"></div>
+<header class="nav"><div class="wrap"><a class="logo" href="#top">Satendra Verma</a>
+<nav><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav></div></header>
 
-[About](#about)[Experience](#experience)[Projects](#projects)[Skills](#skills)[Contact](#contact)
+<main id="top">
+<div class="hero">
+<div class="blob b1"></div><div class="blob b2"></div>
+<div class="wrap">
+<div>
+<div class="hi fade" style="--d:.1s"><span class="dot"></span>Open to software, AI/ML &amp; data roles</div>
+<h1><span class="mask"><span style="--d:.2s">Satendra</span></span><span class="mask"><span style="--d:.35s"><em>Verma</em></span></span></h1>
+<p class="role fade" style="--d:.7s">I build <b id="w">working ML models</b>. B.Tech Information Technology student with hands-on experience across software, AI/ML, and data analysis.</p>
+<div class="btns fade" style="--d:.9s"><a class="btn main" href="mailto:satendraverma7@gmail.com">Email me</a><a class="btn" href="https://github.com/satanicverma">View GitHub</a></div>
+</div>
+<aside class="id fade" style="--d:1s"><div class="ring"><div>SV</div></div>
+<dl><dt>Degree</dt><dd>B.Tech, Information Technology</dd><dt>Focus</dt><dd>Software, AI/ML, data</dd><dt>Toolkit</dt><dd>Python, SQL, Pandas, NumPy</dd></dl></aside>
+</div></div>
 
-Open to software, AI/ML & data roles
+<div class="wrap">
+<div class="stats rv">
+<div><strong data-to="3">0</strong><span>internships and simulations</span></div>
+<div><strong data-to="5000" data-plus="1">0</strong><span>movie records modelled</span></div>
+<div><strong data-to="2">0</strong><span>projects built</span></div>
+</div>
+<div class="marq rv" aria-hidden="true"><div><span>Python</span><span>SQL</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Machine learning</span><span>EDA</span><span>REST APIs</span><span>Git</span><span>Cybersecurity</span><span>Python</span><span>SQL</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Machine learning</span><span>EDA</span><span>REST APIs</span><span>Git</span><span>Cybersecurity</span></div></div>
 
-# Satendra*Verma*
+<section id="about"><h2 class="rv">About me</h2>
+<div class="about rv"><p>I’m Satendra, an Information Technology student who loves building things that learn and scale. This past year I’ve <b>built and deployed ML models</b>, shipped APIs and Python modules, explored data with Pandas, and worked through a real cybersecurity case with TCS. Basketball at the national level taught me to stay calm under pressure and play for the team, and I bring the same habits to my work. I’m looking for my first role in <b>software, AI/ML, or data</b>.</p>
+<svg class="ball" viewBox="0 0 160 200" role="img" aria-label="Animated bouncing basketball"><ellipse class="shd" cx="80" cy="188" rx="34" ry="6"/><g class="bnc"><g class="rot"><circle cx="80" cy="60" r="34" class="f-g"/><path d="M46 60H114M80 26V94M56 36C70 52 70 68 56 84M104 36C90 52 90 68 104 84" stroke="#101A33" stroke-width="2.5" fill="none"/></g></g></svg></div></section>
 
-I build **working ML models**. B.Tech Information Technology student with hands-on experience across software, AI/ML, and data analysis.
+<section id="experience">
+<h2 class="rv">Experience</h2><p class="sub rv">Real-world practice across AI/ML, software, and security.</p>
+<div class="tl">
+<div class="job rv"><figure class="art"><svg viewBox="0 0 220 150" role="img" aria-label="Animated machine learning pipeline feeding an API"><rect width="220" height="150" class="bgf"/><path class="sb flow" stroke-width="1.2" d="M35 45L90 30M35 45L90 75M35 45L90 120M35 105L90 30M35 105L90 75M35 105L90 120M90 30L150 60M90 75L150 60M90 120L150 60M90 30L150 95M90 75L150 95M90 120L150 95M150 60L186 78M150 95L186 78"/><g class="f-g"><circle class="pl" cx="35" cy="45" r="6"/><circle class="pl" style="--d:.3s" cx="35" cy="105" r="6"/><circle class="pl" style="--d:.6s" cx="90" cy="30" r="6"/><circle class="pl" style="--d:.9s" cx="90" cy="75" r="6"/><circle class="pl" style="--d:1.2s" cx="90" cy="120" r="6"/><circle class="pl" style="--d:1.5s" cx="150" cy="60" r="6"/><circle class="pl" style="--d:1.8s" cx="150" cy="95" r="6"/></g><rect x="184" y="66" width="32" height="24" rx="6" class="f-b"/><text x="200" y="82" text-anchor="middle" class="svt" style="fill:#fff">API</text></svg></figure><h3>AI &amp; Data Skills Intern</h3><div class="meta">YBI Foundation · July 2024 · Remote</div>
+<ul><li>Built and deployed ML models end to end, from analysis to production integration.</li><li>Created RESTful APIs so models could run in production, improving scalability and access.</li><li>Ran exploratory data analysis with Pandas and NumPy to surface actionable insights.</li></ul></div>
+<div class="job rv"><figure class="art"><svg viewBox="0 0 220 150" role="img" aria-label="Animated code editor typing Python"><rect width="220" height="150" class="bgf"/><circle cx="16" cy="16" r="4" class="f-g"/><circle cx="30" cy="16" r="4" class="f-b"/><circle cx="44" cy="16" r="4" class="f-m"/><rect class="ty f-g" x="20" y="40" width="90" height="7" rx="3.5"/><rect class="ty f-b" style="--d:.4s" x="36" y="58" width="120" height="7" rx="3.5"/><rect class="ty f-m" style="--d:.8s" x="36" y="76" width="72" height="7" rx="3.5"/><rect class="ty f-g" style="--d:1.2s" x="36" y="94" width="104" height="7" rx="3.5"/><rect class="ty f-b" style="--d:1.6s" x="20" y="112" width="62" height="7" rx="3.5"/><rect class="blk f-i" x="88" y="110" width="3" height="11"/></svg></figure><h3>Python Programming Intern</h3><div class="meta">Motion Cut · Oct – Dec 2024 · Remote</div>
+<ul><li>Designed Python solutions for project-driven tasks.</li><li>Worked with teammates to deliver working modules on deadline.</li></ul></div>
+<div class="job rv"><figure class="art"><svg viewBox="0 0 220 150" role="img" aria-label="Animated security shield being scanned"><rect width="220" height="150" class="bgf"/><path class="sg" stroke-width="3" style="fill:color-mix(in srgb,var(--glow) 14%,transparent)" d="M110 18L168 40V76C168 106 144 126 110 138C76 126 52 106 52 76V40Z"/><path class="sg draw" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M86 78L104 96L136 58"/><rect class="scan f-g" x="62" y="34" width="96" height="3" rx="1.5"/></svg></figure><h3>Cybersecurity Analyst Simulation</h3><div class="meta">TCS via Forage · April 2025</div>
+<ul><li>Completed an IAM simulation with TCS’s Cybersecurity Consulting team, applying risk-mitigation practices.</li><li>Wrote technical documentation and presented security concepts to stakeholders.</li></ul></div>
+</div></section>
 
-[Email me](mailto:satendraverma7@gmail.com)[View GitHub](https://github.com/satanicverma)
+<section id="projects">
+<h2 class="rv">Selected projects</h2><p class="sub rv">Two builds that show how I work with data and code.</p>
+<div class="grid">
+<article class="card rv"><div class="shot"><svg viewBox="0 0 400 170" role="img" aria-label="Animated similarity graph linking a chosen movie to recommended movies"><rect width="400" height="170" class="bgf"/><path class="sg flow" stroke-width="1.5" d="M170 70L96 48M170 100L96 122M230 70L304 48M230 100L304 122"/><rect x="170" y="30" width="60" height="110" rx="8" class="pst" style="stroke:var(--gold);stroke-width:2"/><text x="200" y="90" text-anchor="middle" class="svt">Your pick</text><g class="bb"><rect x="36" y="20" width="60" height="56" rx="8" class="pst"/><text x="66" y="53" text-anchor="middle" class="svt">94%</text></g><g class="bb" style="--d:.7s"><rect x="36" y="94" width="60" height="56" rx="8" class="pst"/><text x="66" y="127" text-anchor="middle" class="svt">91%</text></g><g class="bb" style="--d:1.4s"><rect x="304" y="20" width="60" height="56" rx="8" class="pst"/><text x="334" y="53" text-anchor="middle" class="svt">88%</text></g><g class="bb" style="--d:2.1s"><rect x="304" y="94" width="60" height="56" rx="8" class="pst"/><text x="334" y="127" text-anchor="middle" class="svt">86%</text></g></svg></div><h3>Movie Recommendation System</h3><ul class="tags"><li>Python</li><li>Pandas</li><li>Scikit-learn</li><li>NLP</li></ul>
+<p>A content-based recommender on 5,000+ TMDB records. TF-IDF vectorization and cosine similarity return the closest matches, using features from genre, cast, director, and plot keywords.</p><a class="link" href="https://github.com/satanicverma">See the code</a></article>
+<article class="card rv" style="--d:.12s"><div class="shot"><svg viewBox="0 0 400 170" role="img" aria-label="Live analogue clock showing the current time"><rect width="400" height="170" class="bgf"/><circle cx="200" cy="85" r="68" class="pst" style="stroke:var(--gold);stroke-width:2"/><circle cx="200" cy="85" r="58" fill="none" stroke="var(--ink)" stroke-width="8" stroke-dasharray="2 29.4" stroke-dashoffset="1" transform="rotate(-90 200 85)"/><line id="hs" x1="200" y1="85" x2="200" y2="54" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/><line id="ms" x1="200" y1="85" x2="200" y2="40" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/><line id="ss" x1="200" y1="96" x2="200" y2="34" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round"/><circle cx="200" cy="85" r="5" class="f-g"/><text x="30" y="90" class="svt" style="font-family:monospace;opacity:.6">new Date()</text><text x="296" y="90" class="svt" style="font-family:monospace;opacity:.6">setInterval</text></svg></div><h3>Analogue Clock</h3><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+<p>A real-time, responsive analogue clock built with JavaScript’s Date API and setInterval, tuned for desktop and mobile.</p><a class="link" href="https://github.com/satanicverma">See the code</a></article>
+</div></section>
 
-SV
+<section id="skills">
+<h2 class="rv">Skills and beyond</h2><p class="sub rv">The tools I use, and the life outside the editor.</p>
+<div class="sk rv">
+<div><h3>Languages</h3><ul class="tags"><li>Python</li><li>Java</li><li>C++</li></ul></div>
+<div><h3>AI/ML and data</h3><ul class="tags"><li>Pandas</li><li>NumPy</li><li>Scikit-learn</li><li>SQL</li><li>Git</li><li>MS Office</li></ul></div>
+<div><h3>Web</h3><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></div>
+<div><h3>Concepts</h3><ul class="tags"><li>Machine learning</li><li>EDA</li><li>IAM</li><li>Cybersecurity</li></ul></div>
+</div>
+<div class="two" style="margin-top:22px">
+<article class="card rv"><div class="shot"><svg viewBox="0 0 400 170" role="img" aria-label="Animated certificates with a gold seal"><rect width="400" height="170" class="bgf"/><g class="bb" style="--d:.8s"><rect x="160" y="26" width="140" height="100" rx="8" class="pst" transform="rotate(7 230 76)"/></g><g class="bb"><rect x="110" y="30" width="150" height="104" rx="8" class="pst" style="stroke:var(--gold);stroke-width:2"/><rect x="130" y="50" width="80" height="6" rx="3" class="f-m"/><rect x="130" y="66" width="108" height="5" rx="2.5" class="f-m"/><rect x="130" y="80" width="92" height="5" rx="2.5" class="f-m"/><path d="M222 126L218 144L231 138L243 144L239 126Z" class="f-b"/><g class="sp"><circle cx="231" cy="112" r="16" class="f-g"/></g><path class="draw" fill="none" stroke="#101A33" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M223 112L229 118L240 106"/></g></svg></div><h3>Certifications</h3><p>Tata Cybersecurity Analyst Job Simulation, Forage (April 2025).<br>YBI Foundation AI &amp; Data Skills Internship (July 2024).</p></article>
+<article class="card rv" style="--d:.12s"><div class="shot"><svg viewBox="0 0 400 170" role="img" aria-label="Animated basketball shot dropping through a hoop"><rect width="400" height="170" class="bgf"/><line x1="40" y1="156" x2="360" y2="156" class="sg" stroke-width="2" opacity=".4"/><line x1="322" y1="92" x2="322" y2="156" stroke="var(--muted)" stroke-width="5"/><rect x="318" y="28" width="7" height="64" rx="2" class="f-i"/><path class="net" fill="none" stroke="var(--muted)" stroke-width="1.3" d="M273 80L283 114M284 82L289 114M294 83V114M304 82L299 114M315 80L305 114M277 98H311M281 108H307"/><ellipse cx="294" cy="78" rx="22" ry="5" class="sg" stroke-width="3"/><g class="shoot"><circle cx="50" cy="140" r="12" class="f-g"/><path d="M38 140H62M50 128V152" stroke="#101A33" stroke-width="1.6" fill="none"/></g></svg></div><h3>Off the screen</h3><p>Represented Uttar Pradesh as a national-level basketball player. Led student initiatives and community programs as Student Secretary of Peace House.</p></article>
+</div></section>
 
-Degree
+<section id="contact"><div class="cta rv"><h2>Let’s work together</h2><p>I’m looking for a software, AI/ML, or data role where I can learn fast and contribute early. Email is the quickest way to reach me.</p>
+<div class="btns"><a class="btn main" href="mailto:satendraverma7@gmail.com">satendraverma7@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/satendra-verma-128522228">LinkedIn</a><a class="btn" href="https://github.com/satanicverma">GitHub</a></div></div></section>
+</div>
+</main>
+<footer>© 2026 Satendra Verma</footer>
 
-B.Tech, Information Technology
-
-Focus
-
-Software, AI/ML, data
-
-Toolkit
-
-Python, SQL, Pandas, NumPy
-
-**0**internships and simulations
-
-**0**movie records modelled
-
-**0**projects built
-
-PythonSQLPandasNumPyScikit-learnMachine learningEDAREST APIsGitCybersecurityPythonSQLPandasNumPyScikit-learnMachine learningEDAREST APIsGitCybersecurity
-
-## About me
-
-I’m Satendra, an Information Technology student who loves building things that learn and scale. This past year I’ve **built and deployed ML models**, shipped APIs and Python modules, explored data with Pandas, and worked through a real cybersecurity case with TCS. Basketball at the national level taught me to stay calm under pressure and play for the team, and I bring the same habits to my work. I’m looking for my first role in **software, AI/ML, or data**.
-
-## Experience
-
-Real-world practice across AI/ML, software, and security.
-
-### AI & Data Skills Intern
-
-YBI Foundation · July 2024 · Remote
-
-- Built and deployed ML models end to end, from analysis to production integration.
-- Created RESTful APIs so models could run in production, improving scalability and access.
-- Ran exploratory data analysis with Pandas and NumPy to surface actionable insights.
-
-### Python Programming Intern
-
-Motion Cut · Oct – Dec 2024 · Remote
-
-- Designed Python solutions for project-driven tasks.
-- Worked with teammates to deliver working modules on deadline.
-
-### Cybersecurity Analyst Simulation
-
-TCS via Forage · April 2025
-
-- Completed an IAM simulation with TCS’s Cybersecurity Consulting team, applying risk-mitigation practices.
-- Wrote technical documentation and presented security concepts to stakeholders.
-
-## Selected projects
-
-Two builds that show how I work with data and code.
-
-### Movie Recommendation System
-
-- Python
-- Pandas
-- Scikit-learn
-- NLP
-
-A content-based recommender on 5,000+ TMDB records. TF-IDF vectorization and cosine similarity return the closest matches, using features from genre, cast, director, and plot keywords.
-
-[See the code](https://github.com/satanicverma)
-
-### Analogue Clock
-
-- HTML
-- CSS
-- JavaScript
-
-A real-time, responsive analogue clock built with JavaScript’s Date API and setInterval, tuned for desktop and mobile.
-
-[See the code](https://github.com/satanicverma)
-
-## Skills and beyond
-
-The tools I use, and the life outside the editor.
-
-### Languages
-
-- Python
-- Java
-- C++
-
-### AI/ML and data
-
-- Pandas
-- NumPy
-- Scikit-learn
-- SQL
-- Git
-- MS Office
-
-### Web
-
-- HTML
-- CSS
-- JavaScript
-
-### Concepts
-
-- Machine learning
-- EDA
-- IAM
-- Cybersecurity
-
-### Certifications
-
-Tata Cybersecurity Analyst Job Simulation, Forage (April 2025).\
-YBI Foundation AI & Data Skills Internship (July 2024).
-
-### Off the screen
-
-Represented Uttar Pradesh as a national-level basketball player. Led student initiatives and community programs as Student Secretary of Peace House.
-
-## Let’s work together
-
-I’m looking for a software, AI/ML, or data role where I can learn fast and contribute early. Email is the quickest way to reach me.
-
-[satendraverma7@gmail.com](mailto:satendraverma7@gmail.com)[LinkedIn](https://www.linkedin.com/in/satendra-verma-128522228)[GitHub](https://github.com/satanicverma)
-
-© 2026 Satendra Verma
+<script>
+document.documentElement.classList.add('js');
+var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');var s=e.target.querySelectorAll('[data-to]');s.forEach(count);io.unobserve(e.target)}})},{threshold:.15});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+function count(el){var to=+el.dataset.to,p=el.dataset.plus?'+':'',t0=null;if(rm){el.textContent=to.toLocaleString()+p;return}
+function f(t){t0=t0||t;var k=Math.min((t-t0)/1600,1),v=Math.round(to*(1-Math.pow(1-k,3)));el.textContent=v.toLocaleString()+p;if(k<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
+var bar=document.getElementById('bar');
+addEventListener('scroll',function(){var h=document.documentElement;bar.style.transform='scaleX('+(h.scrollTop/(h.scrollHeight-h.clientHeight||1))+')'},{passive:true});
+document.querySelectorAll('.card').forEach(function(c){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--x',(e.clientX-r.left)+'px');c.style.setProperty('--y',(e.clientY-r.top)+'px')})});
+var w=document.getElementById('w'),words=['working ML models','reliable APIs','clean Python code','useful data insights'],i=0;
+if(!rm)setInterval(function(){w.classList.add('out');setTimeout(function(){i=(i+1)%words.length;w.textContent=words[i];w.classList.remove('out')},350)},2600);
+var cg=document.getElementById('cg');
+if(!rm&&matchMedia('(pointer:fine)').matches)addEventListener('pointermove',function(e){cg.style.opacity=1;cg.style.transform='translate('+e.clientX+'px,'+e.clientY+'px)'});
+var hs=document.getElementById('hs'),ms=document.getElementById('ms'),ss=document.getElementById('ss');
+function tick(){var d=new Date(),s=d.getSeconds(),m=d.getMinutes()+s/60,h=d.getHours()%12+m/60;hs.setAttribute('transform','rotate('+h*30+' 200 85)');ms.setAttribute('transform','rotate('+m*6+' 200 85)');ss.setAttribute('transform','rotate('+s*6+' 200 85)')}
+tick();setInterval(tick,1000);
+</script>
+</body>
+</html>
